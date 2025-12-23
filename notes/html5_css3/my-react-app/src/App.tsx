@@ -1,33 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+// 실행 방법: npm run dev
+// 실행 이후 나타나는 Local: http://localhost/:숫자/ 가 있음
+// http://localhost/:숫자/ 를 웹 브라우저에 입력해야 페이지가 보입니다.
+
+// 그리고 현재 구성 특성 상 웹 브라우저를 그냥 켜놓고
+// 코드만 바꾸면 알아서 페이지가 코드에 따라 변경됩니다.
+
+// Ctrl + / 를 누르면 자동으로 특정 위치에서 사용할 수 있는 주석이 만들어짐
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        {/* h1 태그는 제목을 표시할 때 사용합니다 */}
+        {/* 숫자 크기에 따라 사이즈가 조정됩니다. */}
+        <h1>First HTML5/CSS3</h1>
+        <h2>First HTML5/CSS3</h2>
+        <h3>First HTML5/CSS3</h3>
+        <h4>First HTML5/CSS3</h4>
+        <h5>First HTML5/CSS3</h5>
+        <h6>First HTML5/CSS3</h6>
+
+        {/* 주석 */}
+        {/* 실제 여러 사람들과 개발 할 때 내 머리속의 생각이 공유되지 않기 때문 */}
+        {/* 시간이 지나더라도 해당 파트가 무엇인지 기록을 해두기 위해 사용함. */}
+        <p>단락 paragraph의 역할입니다.</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
