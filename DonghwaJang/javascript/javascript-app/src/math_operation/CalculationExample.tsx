@@ -1,11 +1,3 @@
-
-//Javascript에서 함수형 객체 만들 때 사용하는데 아래 패턴으로 기억하면 됨
-// 1. export const <- 고정
-// 2. 함수 이름
-// 3. = () => {} 고정
-// 4. 구동시킬 코드 내부에 작성
-// 5. return 내분에는 react
-
 export const CalculationExample = () => {
     const add = 3 + 3;
     const subtract = 10 - 5;
@@ -21,7 +13,6 @@ export const CalculationExample = () => {
             <p>20 / 4 = {divide}</p>
             <p>4 * 2 = {multiply}</p>
             <p>10 % 3 = {remainder}</p>
-            {/* 위의 const 사칙함수 값이 {사칙함수} 로 전달돼서 보이는 것*/}
         </div>
     )
-}
+} 
