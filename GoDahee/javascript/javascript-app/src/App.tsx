@@ -7,6 +7,7 @@ import { FristProblem } from './assets/problem/FristProblem'
 import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowSummation } from './control_flow/ControlFlowSummation'
+import { ControlFlowSumExample } from './control_flow/ControlFlowSumExample'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <ControlFlowSwitch/>
         <ControlFlowFor/>
         <ControlFlowSummation/>
+        <ControlFlowSumExample/>
       </div>
     </>
   )
