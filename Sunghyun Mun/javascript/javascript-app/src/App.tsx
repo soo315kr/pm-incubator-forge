@@ -7,6 +7,8 @@ import { FirstProblem } from './problem/FirstProblem'
 import { ControlFlowSwitch } from './control_flow/ControlFlowIfSwitch'
 import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
+import { ControlFlowForSummationExample } from './control_flow/ControlFlowForSummationExample'
+
 
 // 실행 방법: npm run dev
 // 실행 이후 나타는 Local: https://localhost:숫자/가 있음
@@ -32,7 +34,8 @@ function App() {
         <FirstProblem/>
         <ControlFlowSwitch/>
         <ControlFlowFor/>
-        <ControlFlowForSummation/>          
+        <ControlFlowForSummation/>
+        <ControlFlowForSummationExample/>
       </div>
     </>
   )
