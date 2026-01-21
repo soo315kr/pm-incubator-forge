@@ -3,7 +3,7 @@ export const ArraySliceExample = () => {
     
     let sliced_array: number[] =  number_array.slice(3, 7)
     // 위 코드는 number_array에서 
-    // 3번 인덱스 ~ 7번 비포함 인덱스까지 정보를 잘라서 가져옴
+    // 3번 인덱스 ~ 6번 (7번 비포함) 인덱스까지 정보를 잘라서 가져옴
     // 8~14까지 
        
    
