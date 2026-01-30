@@ -473,6 +473,8 @@ sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/python,intellij,intellij+all,intellij+iml,visualstudiocode,react,nextjs
 
+# exclude .cursor-cli
+
 # exclude .DS_Store
 .DS_Store
 
