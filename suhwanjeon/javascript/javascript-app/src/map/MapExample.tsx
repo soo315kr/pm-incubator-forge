@@ -15,8 +15,7 @@ export const MapExample = () => {
     // 2. element이라는 것이 2 혹은 4, 6, 8, 10이 됨을 의마함. 
     // 3. => 를 통해 이 내용을 화살표 내용의 연산으로 적용함을 의미함. 
     // element * element = 각 요소의 제곱 
-    
-    let square_result_array: number [] = numbber_array.map(element => element + element)
+    let square_result_array: number [] = numbber_array.map(element => element * element)
     
     return (
         <div> 
