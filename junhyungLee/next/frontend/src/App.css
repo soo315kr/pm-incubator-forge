@@ -1,0 +1,124 @@
+#root {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  color: #0f172a;
+  background: radial-gradient(circle at 20% 20%, #f8fafc, #eef2ff 40%, #f8fafc);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.app__header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.app__header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.app__header p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.board {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+  padding: 18px;
+}
+
+.board__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.board__count {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.board__button {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #ffffff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.28);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.board__button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(124, 58, 237, 0.3);
+}
+
+.board__table-wrapper {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.board__table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.board__table thead {
+  background: #f8fafc;
+}
+
+.board__table th,
+.board__table td {
+  padding: 14px 12px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.board__table th {
+  color: #475569;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.board__table tbody tr + tr td {
+  border-top: 1px solid #f1f5f9;
+}
+
+.board__table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.board__title a {
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.board__title a:hover {
+  color: #2563eb;
+}
+
+.board__empty {
+  text-align: center;
+  color: #94a3b8;
+  font-weight: 700;
+}

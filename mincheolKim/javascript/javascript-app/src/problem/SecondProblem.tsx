@@ -10,7 +10,7 @@ export const SecondProblem = () => {
 
     return (
         <div>
-            <h3>javascript 제어문 (for)</h3>
+            <h3>Second Problem(for)</h3>
 
             <pre>{
                 `

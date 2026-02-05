@@ -1,0 +1,9 @@
+# PM-EDDI-1
+python-dotenv>=1.0.0
+
+# FastAPI
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# HTTP client (Kakao API 호출용)
+httpx>=0.26.0

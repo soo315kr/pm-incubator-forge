@@ -1,0 +1,17 @@
+success_criteria:
+  # 애플리케이션 시작 시 `.env` 파일이 1회 로드된다.
+  - "The .env file is loaded once at application startup."
+  # 환경 변수 로딩 책임은 config 패키지에 명시적으로 위치한다.
+  - "The responsibility for loading environment variables is explicitly located in the config package."
+  # Service 및 Controller에서는 `.env` 파일을 직접 로드하지 않는다.
+  - "Services and Controllers do not directly load the .env file."
+  # 환경 변수 로딩 여부는 애플리케이션 전역에서 일관되게 보장된다.
+  - "Consistent loading of environment variables is ensured throughout the application."
+
+todos:
+  # python-dotenv 의존성 추가
+  - "Add python-dotenv dependency"
+  # config/env.py 생성 및 load_env 함수 구현
+  - "Create config/env.py and implement load_env function"
+  # 애플리케이션 엔트리포인트에서 load_env 호출
+  - "Call load_env from the application entry point"
